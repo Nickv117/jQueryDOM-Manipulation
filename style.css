@@ -1,0 +1,51 @@
+html {
+  box-sizing: border box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.sectioncontent {
+  width: 600px;
+}
+
+a {
+  text-decoration: none;
+  background-color: rgb(24, 188, 204);
+  color: white;
+  padding-top: 10px;
+  height: 27px;
+}
+
+ul {
+  list-style: none;
+}
+p {
+  color: #888;
+  font-family: sans-serif;
+}
+
+.Sections a {
+  display: block;
+}
+
+.content {
+  overflow: hidden;
+  height: 0px;
+  transition: linear 1s;
+}
+
+.show {
+  height: 160px;
+}
+
+.Sections {
+  margin-top: 0;
+}
+
+a:hover {
+  background-color: rgb(27, 208, 229);
+}
